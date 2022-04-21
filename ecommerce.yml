@@ -1,6 +1,6 @@
 token:
    expiration_time: 86400000
-   secret: ggpark_token_ecommerce
+   secret: my_name_is_ggpark_hahaha
 
 gateway:
   ip: 0.0.0.0

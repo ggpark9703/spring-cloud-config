@@ -1,6 +1,6 @@
 token:
    expiration_time: 86400000
-   secret: my_name_is_ggpark_hahaha
+   secret: ganggyun_park
 
 gateway:
   ip: 0.0.0.0

@@ -1,6 +1,6 @@
 token:
    expiration_time: 86400000
-   secret: ganggyun_park
+   secret: ggpark_token
 
 gateway:
   ip: 0.0.0.0

@@ -1,0 +1,6 @@
+token:
+   expiration_time: 86400000
+   secret: ggpark_token_prod
+
+gateway:
+  ip: 0.0.0.0

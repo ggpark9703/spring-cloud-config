@@ -1,0 +1,16 @@
+spring:
+   datasource:
+      driver-class-name: org.h2.Driver
+      url: jdbc:h2:mem:testdb
+      username: sa
+      password: '{cipher}AQA3Wlcwu01k0p9/hdLhSv5L/WKKo452yh576T+I/AV5kiNckUu6PBPdmetCB0zecb7AkoktLfqZPt6ziznW3slrKHkIb39vyQjFcn0wKTdp6t38e84uoQbWp5SH7BXsT3pTYrmSwPGDvgr3K3NgPAnfZ0zOntmjR/ImO1YetawqFD3OQUqVxMYB93l6z6lG92vSbZpRRp2tJ9lke1u6zeV+vG3tEeFuezk3nb/r8dk8SGtRjru41tUD/g0fQ9R3Rf/i/0Sly9eN9Q2NAAVJ1Be6ohOMexth1oSQoeKQqmwPVCXxwglpDWvntxfanmsK5oavLeOeglkoXFg9JWVst2A9hJHPke6jyTabzuiz+kv3gHcNrih9bJ9RrEifJ4Xl2a8='
+token:
+  expiration_time: 864000000
+  secret: '{cipher}AQAIOA+faH9XEcX5usyT6e+7ahXOvdmcZtZHMHQyDznJQ21eXzGq11eXqWh7F8/zo2xywBQhSmCz3YbyT181IvPhUB9djzSiYyndedY/k1XX/1lr8a1eZ5QRJbQeuAawgPmeZpr2xb+/7egZw2uUZtzSZKS7xZHh9cXV218sAWteTOKP9Y0AzWuz0ZiV7CJhK9OuZvTBShIlF3Hfy1Umxdmy2AwSqNIEndH8RQer17CaI7fF/sdj41v6YECyL39jP5143aaUyxTt/qgw2RDgh9WrDNdH4LwavG4Pl7+9ob5PDcpZekmScPsXFouJTjGYaX4ICTk04FhoOgxt9ZSB0lBdruNTgzdEaDTE519BaF1EY8noii/4mQDDTIfkX/Gz4oZfHcz6JwhDHeHgKFmxRc4v'
+gateway:
+  ip: 0.0.0.0
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception:
+    order_is_empty: hehe ezpz lemonsquizy 
